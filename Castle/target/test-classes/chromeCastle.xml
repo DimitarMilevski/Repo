@@ -1,0 +1,21 @@
+<suite name="Castle castle.Search" parallel="tests">
+
+    <parameter name="useCloudEnv" value="true"/>
+    <parameter name="userName" value="jawad083"/>
+    <parameter name="accessKey" value="9c614a02-865d-4af6-b227-346f89ef0f84"/>
+    <parameter name="os" value="mac"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="52.0"/>
+    <parameter name="url" value="http://www.castle.com"/>
+
+    <test name = "Castle castle.Search">
+        <classes>
+
+            <class name="castle.Search"/>
+            <!--<class name="castle.Privacy"/>-->
+
+
+        </classes>
+    </test>
+
+</suite>

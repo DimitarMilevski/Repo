@@ -1,0 +1,24 @@
+<suite name="Castle castle.Search" parallel="tests">
+
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="userName" value="rahmanww"/>
+    <parameter name="accessKey" value="6f132866-de72-43fd-b49a-e6f81d26bfe3"/>
+    <parameter name="os" value="mac"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="47.0.1"/>
+    <parameter name="url" value="https://washingtondc.craigslist.org/"/>
+
+    <test name = "Craigslist castle.Search">
+        <classes>
+
+            <class name="Craigslist.CitySearch"/>
+            <class name="Craigslist.LogIn"/>
+            <class name="Craigslist.CRV"/>
+            <class name="Craigslist.FreeSection"/>
+            <class name="Craigslist.PriceLimit"/>
+
+
+        </classes>
+    </test>
+
+</suite>
