@@ -4,7 +4,7 @@
 
 <suite name="Bed Bath And Beyond " parallel="tests">
 
-    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="useCloudEnv" value="true"/>
     <parameter name="userName" value="Dimitar"/>
     <parameter name="accessKey" value= "806b9c37-3173-41da-adf3-114ccd386fe4"/>
     <parameter name="os" value="Win7"/>

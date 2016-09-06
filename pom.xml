@@ -10,10 +10,10 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>Generic</module>
-        <module>Castle</module>
+        <!--<module>Castle</module>-->
         <module>BBB</module>
-        <module>Tarikuz</module>
-        <module>Chase</module>
+        <!--<module>Tarikuz</module>-->
+        <!--<module>Chase</module>-->
 
         <!--<module>Amazon</module>-->
         <!--<module>Cnn</module>-->
@@ -118,13 +118,13 @@
     <!--</profiles>-->
 
     <profiles>
-        <profile>
-            <id>Castle-Module</id>
-            <modules>
-                <module>Generic</module>
-                <module>Castle</module>
-            </modules>
-        </profile>
+        <!--<profile>-->
+            <!--<id>Castle-Module</id>-->
+            <!--<modules>-->
+                <!--<module>Generic</module>-->
+                <!--<module>Castle</module>-->
+            <!--</modules>-->
+        <!--</profile>-->
         <profile>
             <id>BBB-Module</id>
             <modules>
@@ -132,20 +132,20 @@
                 <module>BBB</module>
             </modules>
         </profile>
-        <profile>
-            <id>Chase-Module</id>
-            <modules>
-                <module>Generic</module>
-                <module>Chase</module>
-            </modules>
-        </profile>
-        <profile>
-            <id>tarikuz-Module</id>
-            <modules>
-                <module>Generic</module>
-                <module>Tarikuz</module>
-            </modules>
-        </profile>
+        <!--<profile>-->
+            <!--<id>Chase-Module</id>-->
+            <!--<modules>-->
+                <!--<module>Generic</module>-->
+                <!--<module>Chase</module>-->
+            <!--</modules>-->
+        <!--</profile>-->
+        <!--<profile>-->
+            <!--<id>tarikuz-Module</id>-->
+            <!--<modules>-->
+                <!--<module>Generic</module>-->
+                <!--<module>Tarikuz</module>-->
+            <!--</modules>-->
+        <!--</profile>-->
 
         <profile>
             <id>default</id>
@@ -154,10 +154,10 @@
             </activation>
             <modules>
                 <module>Generic</module>
-                <module>Castle</module>
+                <!--<module>Castle</module>-->
                 <module>BBB</module>
-                <module>Chase</module>
-                <module>Tarikuz</module>
+                <!--<module>Chase</module>-->
+                <!--<module>Tarikuz</module>-->
             </modules>
         </profile>
     </profiles>
